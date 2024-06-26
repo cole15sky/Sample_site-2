@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WEBSITE</title>
-   <link rel="stylesheet" href="style.css">
-
-
+    <link rel="stylesheet" href="style.css">
+    <title>NavBAr</title>
 </head>
-
 <body>
-   <header>
-    <img class="logo" src="/logo_sky.png">
     <nav>
-        <ul class="nav_bar">
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">GALLERY</a></li>
-            <li><a href="#">ARTICLES</a></li>
+        <ul class="sidebar">
+            <li onclick="hidesidebar()"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="26 px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+            <li> <a href="#blog">Blog</a></li>
+            <li> <a href="#about">About</a></li>
+            <li> <a href="#article">Articles</a></li>
+            <li> <a href="#gallery">Gallery</a></li>
+        </ul>
+        <ul>
+            <li class="hideOnMobile" id="hey"> <a href="#">Sky-Tech</a></li>
+            <li class="hideOnMobile"> <a href="#">Blog</a></li>
+            <li class="hideOnMobile"> <a href="#">About</a></li>
+            <li class="hideOnMobile"> <a href="#">Articles</a></li>
+            <li class="hideOnMobile"> <a href="#">Gallery</a></li>
+            <li class="menu-button" onclick="showSidebar()"> <a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26px"  viewBox="0 -960 960 960" width="26px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
         </ul>
     </nav>
-</header>
+    
 
-
-
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
-
 </html>
