@@ -6,17 +6,26 @@
 body{
     min-height: 100vh;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-image: url(/img/image.png);
+    /* background-image: url(/img/image.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 nav{
-    margin: 5px;
+    /* margin: 5px; */
     border-radius: 5px;
     background-color: skyblue;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+header{
+  position: fixed;
+  left: 0;
+  width: 100%;
+  /* z-index: 1000; */
+  box-shadow: inset;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 nav ul{
@@ -90,6 +99,7 @@ nav li:first-child{
 /* ==================Section================= */
 section{
     min-height: 120vh;
+    padding-top: 80px;
 }
 @media(max-width:800px){
     .hideOnMobile{
