@@ -13,7 +13,9 @@ body{
 }
 
 nav{
-    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: skyblue;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -27,27 +29,36 @@ nav ul{
 
 nav li{
     height: 50px;
+    margin-right: 35px;
+}
+.moon{
+    margin-right: 60px;
+    cursor: pointer;
+}
+.moon:hover{
+    background-color: black;
+    border-radius: 30px;
+
 }
 
 nav a{
     height: 100%;
-    padding: 0 30px;
+    padding: 0 20px;
     text-decoration: none;
     display: flex;
     align-items: center;
     color: black;
 }
 nav a:hover{
-    background-color: #f0f0f0;
+    background-color: lightslategray;
+    border-radius: 40px;
 }
 
 nav li:first-child{
     margin-right: auto;
-
-}
-#hey{
     margin-top: 25px;
     margin-left: 60px;
+
 }
 
 
