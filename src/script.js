@@ -51,3 +51,9 @@ window.addEventListener('scroll', updateActiveNavLink);
 
 // Initial call to update active navigation link on page load
 updateActiveNavLink();
+
+
+
+
+
+

@@ -158,6 +158,9 @@
     padding-top: 80px;
     padding-left: 4%;
     padding-right: 10%;
+    animation-delay: 1s;
+    animation-duration: 5s;
+
 
 }
 
@@ -172,3 +175,48 @@
 .about-text b{
     color: blue;
 }
+
+
+/* ========================Responsvive-about================== */
+/* @media(max-width: 800px) {
+    .about-text {
+        margin-right: 0;
+        padding: 20px;
+    }
+
+    .feature-img {
+        position: static;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 400px) {
+    .about-Section h2 {
+        font-size: 30px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+} */
+
+/* ========================Animation========================== */
+/* .ani{
+    opacity: 0;
+    transform: translateY(30px);
+    animation: moveup 0.5s linear forwards;
+}
+feature-img{
+    animation-delay: 1.5s;
+    animation-duration: s;
+
+}
+ 
+@keyframes moveup{
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+
+    }
+} */
