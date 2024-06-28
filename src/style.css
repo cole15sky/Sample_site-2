@@ -137,6 +137,8 @@
 }
 
 .about-Section h2 {
+    font-family: "Poppins", sans-serif;
+
     right: 50%;
     color: blue;
     position: absolute;
@@ -144,14 +146,15 @@
 
 
  .about-text {
-
-    margin-right: 50%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    margin-right: 40%;
     justify-content: center;
     display: flex;
     align-items: center;
     justify-content: center;
     padding-top: 80px;
-    padding-left: 8%;
+    padding-left: 4%;
     padding-right: 10%;
 
 }
@@ -159,10 +162,8 @@
 .feature-img {
    top: 25%;
    position: absolute;
-   margin-right: 8%;
+   margin-right: 4%;
     width: 530px;
    right: 1px;
    border-radius: 10%;
-
-   
 }
