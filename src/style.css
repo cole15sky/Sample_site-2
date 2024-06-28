@@ -127,3 +127,41 @@
 
 
 
+
+ /* =================================About================================ */
+ .about-Section {
+    background-color: pink;
+    min-height: 90vh;
+    position: relative;
+
+}
+
+.about-Section h2 {
+    right: 50%;
+    color: blue;
+    position: absolute;
+}
+
+
+ .about-text {
+    margin-right: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+    padding-left: 8%;
+    padding-right: 10%;
+
+}
+
+.feature-img {
+   top: 25%;
+   position: absolute;
+   margin-right: 8%;
+    width: 530px;
+   right: 1px;
+   border-radius: 10%;
+
+   
+}
