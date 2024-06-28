@@ -131,23 +131,25 @@
  /* =================================About================================ */
  .about-Section {
     background-color: pink;
-    min-height: 90vh;
+    min-height: 100vh;
     position: relative;
 
 }
 
 .about-Section h2 {
     font-family: "Poppins", sans-serif;
-
-    right: 50%;
+    font-weight: 500;
+    font-size: 40px;
+    right: 40%;
     color: blue;
     position: absolute;
 }
 
-
  .about-text {
+    color:chocolate
+    padding-top: 30px;
     font-family: "Poppins", sans-serif;
-    font-weight: 450;
+    font-weight: 500px;
     margin-right: 40%;
     justify-content: center;
     display: flex;
@@ -160,10 +162,13 @@
 }
 
 .feature-img {
-   top: 25%;
+   top: 30%;
    position: absolute;
    margin-right: 4%;
-    width: 530px;
+    width: 550px;
    right: 1px;
    border-radius: 10%;
+}
+.about-text b{
+    color: blue;
 }
