@@ -130,23 +130,22 @@
 
  /* =================================About================================ */
  .about-Section {
-     background-color: pink;
-     min-height: 100vh;
-     position: relative;
+    background-color: pink;
+    min-height: 100vh;
+    position: relative;
 
- }
+}
 
- .about-Section h2 {
-     font-family: "Poppins", sans-serif;
-     font-weight: 500;
-     font-size: 40px;
-     right: 40%;
-     color: blue;
-     position: absolute;
- }
+.about-Section h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    right: 40%;
+    color: blue;
+    position: absolute;
+}
 
  .about-text {
-<<<<<<< Updated upstream
     color:black;
     padding-top: 30px;
     font-family: "Poppins", sans-serif;
@@ -159,27 +158,9 @@
     padding-top: 80px;
     padding-left: 4%;
     padding-right: 10%;
-=======
-     color: black;
-     padding-top: 30px;
-     font-family: "Poppins", sans-serif;
-     font-weight: 500px;
-     margin-right: 40%;
-     justify-content: center;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     padding-top: 80px;
-     padding-left: 4%;
-     padding-right: 10%;
-     animation-delay: 1s;
-     animation-duration: 5s;
 
->>>>>>> Stashed changes
+}
 
- }
-
-<<<<<<< Updated upstream
 .feature-img {
    top: 30%;
    position: absolute;
@@ -191,62 +172,3 @@
 .about-text b{
     color: blue;
 }
-=======
- .feature-img {
-     top: 30%;
-     position: absolute;
-     margin-right: 4%;
-     width: 550px;
-     right: 1px;
-     border-radius: 10%;
- }
-
- .about-text b {
-     color: blue;
- }
-
-
- /* ========================Responsvive-about================== */
- /* @media(max-width: 800px) {
-    .about-text {
-        margin-right: 0;
-        padding: 20px;
-    }
-
-    .feature-img {
-        position: static;
-        width: 100%;
-        margin-top: 20px;
-    }
-}
-
-@media(max-width: 400px) {
-    .about-Section h2 {
-        font-size: 30px;
-    }
-
-    .about-text {
-        font-size: 14px;
-    }
-} */
-
- /* ========================Animation========================== */
- /* .ani{
-    opacity: 0;
-    transform: translateY(30px);
-    animation: moveup 0.5s linear forwards;
-}
-feature-img{
-    animation-delay: 1.5s;
-    animation-duration: s;
-
-}
- 
-@keyframes moveup{
-    100%{
-        opacity: 1;
-        transform: translateY(0px);
-
-    }
-} */
->>>>>>> Stashed changes
