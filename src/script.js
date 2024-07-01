@@ -51,3 +51,17 @@ window.addEventListener('scroll', updateActiveNavLink);
 
 // Initial call to update active navigation link on page load
 updateActiveNavLink();
+
+
+
+
+
+// =================TimeDisplay===========
+
+let time =document.getElementById(`current-time`);
+
+ setInterval(() =>{
+    let d =new Date();
+time.innerHTML=d.toLocaleTimeString();
+
+ },1000)
