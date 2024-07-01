@@ -172,3 +172,14 @@
 .about-text b{
     color: blue;
 }
+
+
+
+
+/* ==============================Gallery_section================= */
+
+.work__container img{
+    width: 320px;
+
+}
+
