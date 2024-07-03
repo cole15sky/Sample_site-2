@@ -185,7 +185,7 @@
  }
 
  /* =================================Blog===================== */
- .container h1 {
+ .Home_section.container h1{
      position: relative;
      align-content: center;
      /* top: 50%; */
@@ -195,3 +195,119 @@
      font-weight: 600;
      letter-spacing: 3px;
  }
+
+
+
+ /* ============================================Projects================================================ */
+
+
+ .Work_Section body{
+    min-height: 100vh;
+    display:flex ;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefef;
+
+ }
+ .slide_container{
+    min-width: 1120px;
+    width: 100%;
+    background-color: grey;
+    padding: 40px;
+
+
+
+ }
+
+
+ .card_image{
+    position: relative;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 3px;
+ }
+ .card_image .card_img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border: 4px solid #4070F4;
+    border-radius:40px;
+ }
+ .name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+ }
+
+ .description{
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+ }
+
+ .card{
+    width: 320px;
+    border-radius: 25px;
+    background-color: #fff;
+ }
+ .slide_content{
+    margin: 0 40px;
+ }
+
+ .image_content,
+ .card_content
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+
+ }
+
+ .image_content{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+    row-gap: 5px;
+ }
+ .overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070f4;
+    border-radius: 25px 25px 0 25px;
+ }
+ .overlay::before,
+ .overlay::after{
+    content: '';
+    position: absolute;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+ }
+ .overlay::after{
+    border-radius: 0 25px 0 0;
+    background-color: #fff;
+ }
+
+ .button{
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 16px;
+    margin: 14px;
+    background-color: #4070F4;
+    border-radius: 6px ;
+    cursor: pointer;
+    transition: all 0.3s ease;
+ }
+ 
+ .button:hover{
+    background-color: #265df2;
+ }
+
+
