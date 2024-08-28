@@ -1,14 +1,14 @@
-function showSidebar(){
-    const sidebar =document.querySelector('.sidebar')
+function showSidebar() {
+    const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'flex'
-    
+
 }
 
-function hidesidebar(){
-    
-    const sidebar =document.querySelector('.sidebar')
+function hidesidebar() {
+
+    const sidebar = document.querySelector('.sidebar')
     sidebar.style.display = 'none'
-    
+
 }
 
 function darkMode() {
@@ -18,9 +18,9 @@ function darkMode() {
     body.classList.toggle('dark-mode');
 
     if (body.classList.contains('dark-mode')) {
-        moonIcon.src = '/img/sun.svg'; 
+        moonIcon.src = '/img/sun.svg';
     } else {
-        moonIcon.src = '/img/moon.svg'; 
+        moonIcon.src = '/img/moon.svg';
     }
 }
 
@@ -58,10 +58,53 @@ updateActiveNavLink();
 
 // =================TimeDisplay===========
 
-let time =document.getElementById(`current-time`);
+let time = document.getElementById(`current-time`);
 
- setInterval(() =>{
-    let d =new Date();
-time.innerHTML=d.toLocaleTimeString();
+setInterval(() => {
+    let d = new Date();
+    time.innerHTML = d.toLocaleTimeString();
 
- },1000)
+}, 1000)
+
+
+//  =====================Gallery-Section =====================
+
+// document.addEventListener("DOMContentLoaded", function() {
+//     const stickySection = document.querySelectorAll('.sticky');
+//     const images = [
+//         'https://i0.wp.com/www.culturetype.com/wp-content/uploads/2020/02/Brown_Quinn_Russell-DeRay-Mckesson-2018-.jpg?resize=400%2C560&ssl=1',
+//         'https://i0.wp.com/www.culturetype.com/wp-content/uploads/2020/02/Brown_Quinn_Russell-DeRay-Mckesson-2018-.jpg?resize=400%2C560&ssl=1',
+//         'https://i0.wp.com/www.culturetype.com/wp-content/uploads/2020/02/Brown_Quinn_Russell-DeRay-Mckesson-2018-.jpg?resize=400%2C560&ssl=1',
+//         'https://i0.wp.com/www.culturetype.com/wp-content/uploads/2020/02/Brown_Quinn_Russell-DeRay-Mckesson-2018-.jpg?resize=400%2C560&ssl=1',
+//         'https://i0.wp.com/www.culturetype.com/wp-content/uploads/2020/02/Brown_Quinn_Russell-DeRay-Mckesson-2018-.jpg?resize=400%2C560&ssl=1',
+//         'https://i0.wp.com/www.culturetype.com/wp-content/uploads/2020/02/Brown_Quinn_Russell-DeRay-Mckesson-2018-.jpg?resize=400%2C560&ssl=1',
+//         'https://i0.wp.com/www.culturetype.com/wp-content/uploads/2020/02/Brown_Quinn_Russell-DeRay-Mckesson-2018-.jpg?resize=400%2C560&ssl=1',
+//     ];
+
+//     images.forEach(img => {
+//         stickySection.forEach(section => {
+//             const image = document.createElement('img');
+//             image.src = img;
+//             section.querySelector('.scroll-section').appendChild(image);
+//         });
+//     });
+
+//     window.addEventListener('scroll', () => {
+//         stickySection.forEach(section => {
+//             transform(section);
+//         });
+//     });
+
+//     function transform(section) {
+//         const offsetTop = section.parentElement.offsetTop;
+//         const scrollSection = section.querySelector('.scroll-section');
+//         let percentage = ((window.scrollY - offsetTop) / window.innerHeight) * 100;
+//         percentage = percentage < 0 ? 0 : percentage > 400 ? 400 : percentage;
+//         scrollSection.style.transform = `translate3d(${-percentage}vw, 0, 0)`;
+//     }
+// });
+
+
+
+
+

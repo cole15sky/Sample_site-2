@@ -311,3 +311,45 @@
  }
 
 
+
+
+/* 
+ /* ===============================================Gallery====================================================== */
+
+
+ General Styles
+.container-gallery {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* Sticky Section */
+/* 
+.sticky-parents {
+    height: 400vh; 
+    position: relative;
+    overflow: hidden;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.scroll-section {
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.5s ease-in-out;
+}
+
+.scroll-section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin-right: 20px;
+    object-fit: cover;
+} */
